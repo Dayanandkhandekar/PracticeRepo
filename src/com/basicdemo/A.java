@@ -39,6 +39,9 @@ public class A {
 		 
 		 System.out.println("s4===="+s4);
 		 
+		 Student s5=new Student(5, "mm", 40);
+		 Student s6=new Student(6, "mmm", 40);
+		 
 	}
 }
 
@@ -75,9 +78,22 @@ class Student{
 	public void setMark(int mark) {
 		this.mark = mark;
 	}
+
+	/**
+	 * @param sid
+	 * @param sname
+	 * @param mark
+	 */
+	public Student(int sid, String sname, int mark) {
+		super();
+		this.sid = sid;
+		this.sname = sname;
+		this.mark = mark;
+	}
 	
-	Student(){
-		System.out.println("inside no arg");
+	
+	public Student() {
+		
 	}
 	
 
