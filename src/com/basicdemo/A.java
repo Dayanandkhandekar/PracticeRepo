@@ -42,6 +42,14 @@ public class A {
 		 Student s5=new Student(5, "mm", 40);
 		 Student s6=new Student(6, "mmm", 40);
 		 
+		 System.out.println("Enter ur Id");//4
+		 int sid=sc.nextInt();
+		 System.out.println("Enter ur name");// pp
+		 String sname=sc.next();
+		 System.out.println("Enter ur mark");
+		 int smark=sc.nextInt();
+		 Student s7=new Student(sid, sname, smark);
+		 
 	}
 }
 

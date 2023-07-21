@@ -5,10 +5,8 @@ public class JavaClass {
 	//types of variables-instance,static,local
 	//syntax datatype variable ;
 	int k;//instance
-	static int m;//static
+	static int m;//static 
 
-	
-	
 
 	
 //datatype which type of value to be store
