@@ -22,7 +22,7 @@ class B {
 	void m2() {
 		  A obj=new A();
 		   System.out.println("a==="+obj.a);
-		   System.out.println("b==="+A.c);//
+		   System.out.println("b==="+A.c);
 	}
 static void m3() {
 	 A obj=new A();
