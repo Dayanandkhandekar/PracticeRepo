@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Conditionalstatement {
       public static void main(String[] args) {
     	  IfDemo obj=new IfDemo();
-    	  obj.m1();6
+    	  obj.m1();
 	}
 }
 class IfDemo{ 
