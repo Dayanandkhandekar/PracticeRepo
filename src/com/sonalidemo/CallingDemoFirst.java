@@ -34,7 +34,7 @@ class slm
 			 System.out.println("s==="+obj.s);//instance variable access in static block after object creating
 			 	
 	}
-		 class Pqr{
+		  class Pqr{
 				
 				int aa;
 				static int bb;
@@ -45,12 +45,14 @@ class slm
 					 System.out.println("s==="+obj.s);//instance variable access in instance method object create kelyavr memory bhetali
 					 int w;
 				 }
-				 
+		 }		 
 				 static void m4() {//static method
 					 slm obj=new slm();//object create for instance method
 					 System.out.println("c==="+slm.c);//static variable access in instance method class chya navani
 					 System.out.println("s==="+obj.s);//instance variable access in instance method object create kelyavr memory bhetali
+				 
 				 }
+		 
 				 {
 					 
 					 System.out.println("Inside instance block");
@@ -59,8 +61,10 @@ class slm
 				 static{
 					 System.out.println("Inside static block");
 				 }
+				 
 		 }
-}
+		 
+
 		 
 		 
 		 
