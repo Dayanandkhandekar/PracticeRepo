@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class IfDemoStatement {
        public static void main(String[] args) {
     	   Abc obj=new Abc();
-    	   obj.m1();
+    	   //obj.m1();
     	   Xyz obj1=new Xyz(); 
-    	   obj1.m2();
+    	   //obj1.m2(); 
+    	   obj1.m3();
+    	   
 }
 }
 
@@ -31,8 +33,18 @@ class Xyz {
 		System.out.println("Even");
 		
 	}
-	
-	
-	
-	
+	void m3() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter first number");
+		int num1=sc.nextInt();
+		System.out.println("Enter second number");
+		int num2=sc.nextInt();
+		if(num1 > num2)
+			System.out.println("Greater no==="+num1);
+		else
+			System.out.println("Greater no==="+num2);
+			
+			
+}
+
 }
