@@ -1,4 +1,4 @@
-package conditionalstmtdemofirst;
+package com.sonalidemo;
 
 import java.util.Scanner;
 
