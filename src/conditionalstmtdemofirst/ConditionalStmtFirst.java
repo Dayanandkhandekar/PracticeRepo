@@ -41,6 +41,7 @@ class  IfDemoFirstSecond {
 			
 	}
 	static void m3 () {
+		
 		Scanner sc = new Scanner (System.in);
 		 System.out.println("Enter first no");
 		 int num1 = sc.nextInt();
@@ -65,18 +66,5 @@ class  IfDemoFirstSecond {
 			System.out.println("this no is not divisible by 3 and 4");
 		}
 		}
-		
-		
 			
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
