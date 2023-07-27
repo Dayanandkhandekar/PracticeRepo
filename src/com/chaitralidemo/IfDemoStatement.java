@@ -44,7 +44,18 @@ class Xyz {
 		else
 			System.out.println("Greater no==="+num2);
 			
+		
 			
+}
+	void m4() {	
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your number");
+		int num=sc.nextInt();			
+		if(num % 3 == 0 && num % 4 == 0) {
+			System.out.println("Divisble by 3 ==="+num);
+		    System.out.println("Divisble by 4 ==="+num);}
+		else
+			System.out.println("Not Divisble by 3 and 4==="+num);
 }
 
 }
