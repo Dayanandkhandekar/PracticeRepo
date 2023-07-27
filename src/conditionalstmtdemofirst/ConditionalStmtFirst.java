@@ -55,6 +55,7 @@ class  IfDemoFirstSecond {
 	static void m4() {
 		Scanner sc = new Scanner (System.in);
 		System.out.println("Enter the no");
+		
 		int num =sc.nextInt();
 		
 		if(num % 3 == 0 && num % 4 == 0)
