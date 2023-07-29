@@ -104,10 +104,12 @@ class  IfDemoFirstSecond {
 		 }
 		else if(opt==5);
 		{
-		    int c=num3 % 2; 
-		    System.out.println("the no is even");
-		      System.out.println("the no is odd");
-			
+			 if (num3 % 2==0) { 
+				    System.out.println("the first no is even");}
+				    
+				    else {
+				    System.out.println("the first no is odd");}
+					
 
 		}
 	}
