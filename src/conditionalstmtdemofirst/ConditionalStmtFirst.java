@@ -15,8 +15,9 @@ public static void main(String[] args) {
 	 
 	 //IfDemoFirstSecond.m4();
 	 
-	 IfDemoFirstSecond.m5();
+	 //IfDemoFirstSecond.m5();
 	 
+	 IfDemoFirstSecond.m6();
 }
 }
 class IfDemoFirst {
@@ -113,8 +114,72 @@ class  IfDemoFirstSecond {
 
 		}
 	}
+	
+	static void m6() {
+		Scanner sc = new Scanner (System.in);
+		 System.out.println("Enter no");
+		 
+		 int num5 = sc.nextInt();
+		 
+		 int number = 0,count = 1;
+		 
+		 System.out.println("select opt");
+		 System.out.println("1. The given no is even or odd");
+		 System.out.println("2.It is a prime no");
+		 System.out.println("3.The given no is divisible by 7");
+		 System.out.println("4.The given no is between 10 to 20");
+		
+		 
+		 int opt=sc.nextInt();
+		 
+		 switch (opt) {
+		     case 1:
+		    	 if (num5 % 2==0) { 
+					    System.out.println("The given no is even");
+					    }
+		    	 else {
+					    System.out.println("The given no is odd");
+					    }
+				break;
+				
+		     case 2:
+		    	 if(count==0 && number !=1)
+		    	 {
+		    		 System.out.println("It is a prime no");
+		    	 }
+		    	 else {
+		    		 System.out.println("It is not a prime no");
+		    	 }
+		         break;
+		 
+		     case 3 :
+		    	if(num5 % 7 == 0)
+		    		{
+		    		System.out.println("The given no is divisible by 7");
+		    		}
+		    	else {
+		    		System.out.println("The given no is not divisible by 7");
+		    	}
+		    	break;
+		    	
+		     case 4 :
+			    if(num5> 9 && num5< 21) {
+			    	System.out.println("The given no is between 10 to 20");
+			    }
+			    else {
+			    	System.out.println("The given no is not between 10 to 20");
+			    }
+		    	break;
+		    	
+			    default :System.out.println("Invalid choice");
+		    	
+		    	
+		 }
+		 
+	
+	
 }
-
+}
 		     
 		   
 		         
