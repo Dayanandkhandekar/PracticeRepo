@@ -45,6 +45,8 @@ class Xyz {
 			System.out.println("Greater no==="+num2);
 			
 		
+		
+		
 			
 }
 	void m4() {	
