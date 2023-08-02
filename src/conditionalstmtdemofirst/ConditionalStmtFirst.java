@@ -17,9 +17,18 @@ public static void main(String[] args) {
 	 
 	 //IfDemoFirstSecond.m5();
 	 
-	 IfDemoFirstSecond.m6();
+	 //IfDemoFirstSecond.m6();
+	 
+	 //IfDemoFirstSecond.m7();
+	 
+	 //IfDemoFirstSecond.m8();
+	 
+	//IfDemoFirstSecond.m9();
+	
+	IfDemoFirstSecond.m10();
 }
 }
+
 class IfDemoFirst {
 	void m1() {
 		
@@ -175,12 +184,64 @@ class  IfDemoFirstSecond {
 		    	
 		    	
 		 }
+	}
 		 
+	static void m7() {
+           //table of any no
+         Scanner sc = new Scanner(System.in);  
+         System.out.print("Enter number: ");       
+
+                 int abc=sc.nextInt();  
+
+                   for(int i=1; i <= 10; i++)  
+{  
+     
+             System.out.println(abc+" * "+i+" = "+abc*i);  
+}  
+}  
 	
+	static void m8() {
+		// 1-50 even no
+          System.out.println("The first 50 even no");
+           
+          int num=50;
+          for(int i=1;i<=50;i++) {
+        	  if(i%2==0) {
+        		  System.out.println(i);
+        	  }
+          }
+          
+
+}  
 	
-}
-}
-		     
+	static void m9() {
+		// 1-50 divisible by 3 no
+        System.out.println("The divisible by 3 no");
+        
+        int num=50;
+        for(int i=1;i<=50;i++) {
+      	  if(i%3==0) {
+      		  System.out.println(i);
+      	  }
+
+	}
+	}
+	
+
+     static void m10() {
+	// 1-50 even no and divisible by 3 no
+            System.out.println("The  even no and divisible by 3 no");
+    
+         int num=50;
+         for(int i=1;i<=50;i++) {
+  	         if(i%2==0 && i%3==0) {
+  		    System.out.println(i);
+  	  }
+
+         }
+     }
+     }
+     
 		   
 		         
 	
