@@ -8,7 +8,7 @@ public class a{
 	   public int d; 
 	   
 	   void m1() {
-		   System.out.println("a==="+a);
+		   System.out.println("aaa==="+a);
 		   System.out.println("b==="+b);
 	   }
 	   
